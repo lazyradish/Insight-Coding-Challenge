@@ -10,4 +10,4 @@ Implementation
 
 Word counter uses a simple dictionary to count occurances.
 
-Running median uses a dictionary to cound the number of words/line. To calculate the median quickly, 2 heaps incl. counters are used to keep track of the middle location. For details, see `doc/`.
+Running median uses a dictionary to count the number of words per line. To calculate the median quickly, 2 heaps incl. counters are used to keep track of the middle location. For details, see `doc/`.
