@@ -15,7 +15,7 @@ def main(indir='wc_input',
     # create output directory
     try:
         os.mkdir(outdir)
-    except WindowsError:
+    except Exception:
         pass
 
     # initialize data structures

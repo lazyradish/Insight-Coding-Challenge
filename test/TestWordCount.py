@@ -49,5 +49,5 @@ class TestWordCount(unittest.TestCase):
         self._test_word_count('multiple', 'hashtracker')
 
     def test_missing_input_directory(self):
-        with self.assertRaises(WindowsError):
+        with self.assertRaises(Exception):
             WordCount.main(indir='does_not_exist')

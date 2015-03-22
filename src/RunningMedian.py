@@ -130,26 +130,3 @@ class RunningMedianHashTracker(RunningMedian):
                 return numpy.mean([-self._lower_heap[0], self._upper_heap[0]])
             except IndexError:
                 return None
-
-
-# class RunningMedianHash(RunningMedian):
-#     def __init__(self, **kwds):
-#         super(RunningMedianHash, self).__init__(**kwds)
-#         self.data = collections.Counter()
-#
-#     def update(self, count):
-#         self.data[count] += 1
-#
-#     def median(self):
-#         total = sum(self.data.values())
-#         if total == 0:
-#             return None
-#
-#         half = total / 2.0
-#         cumsum = 0
-#         for k in sorted(self.data.keys()):
-#             cumsum += self.data[k]
-#             if cumsum > half:
-#                 return k
-#             elif cumsum == half:
-#                 return numpy.mean([k, k.next()])
