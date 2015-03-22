@@ -1,0 +1,29 @@
+The difference between Data Science and Data Engineering can vary depending on who you ask. At Insight, we have been thinking a lot about what defines Data Engineering. We have recently launched a new program focused on transitioning to this career. 
+
+Data Science 
+
+From our perspective, one job of a data scientist is asking the right questions on any given dataset (whether large or small). 
+
+After finding interesting questions, the data scientist must be able to answer them! Finding these answers may require a knowledge of statistics, machine learning, and data mining tools. If data mining tools are unavailable, then the data scientist might be better prepared by having the skills to learn these tools quickly. This is why it is essential to know CS fundamentals and programming, including experience with languages and database technologies such as Python and MySQL. 
+
+Importantly, any analysis should be effectively communicated to interested audiences. This includes being able to visualize the data or results. The data scientist should be well-versed in creating charts and graphs, and using visualization tools such as D3. These results or insights must then be clearly and effectively presented, either verbally or in writing. 
+
+A Ph.D. degree is a requirement to participate in the Insight Data Science Program because it demonstrates that a Fellow has spent roughly 5 intense years in graduate training to either ask the right questions about data, performing data analysis, create statistical or mathematical models, and present results. These are all skills that are essential to being a well-rounded data scientist. 
+
+Data Engineering 
+
+Data engineers enable data scientists to do their jobs more effectively! 
+
+Our definition of data engineering includes what some companies might call Data Infrastructure or Data Architecture. The data engineer gathers and collects the data, stores it, does batch processing or real-time processing on it, and serves it via an API to a data scientist who can easily query it. 
+
+There are many Big Data tools on the market that perform each of these steps, and it is important that the choice of using a particular tool can be defended (not used just because it is trendy). That is why one of the requirements to participate in the Insight Data Engineering Fellows Program includes having very strong software engineering skills. Not only should the Fellow be able to learn and use these tools quickly, they must improve them if needed. 
+
+A good data engineer is has extensive knowledge on databases and best engineering practices. These include handling and logging errors, monitoring the system, building human-fault-tolerant pipelines, understanding what is necessary to scale up, addressing continuous integration, knowledge of database administration, maintaining data cleaning, and ensuring a deterministic pipeline. 
+
+These topics are acquired from experience building software, so preferred candidates to Insight Data Engineering have several years of software engineering experience, even if the candidate does not hold a Ph.D. degree. We also highly value candidates who have large potential, can learn quickly, and are passionate about Big Data and software engineering.
+
+Overlap 
+
+There is great deal of overlap between these two roles. For instance, a data scientist might use the Hadoop ecosystem to serve up answers to their data questions, and a data engineer might be programming an iterative machine learning algorithm to run over a Spark cluster. Even though these tracks are separate in our program, some companies prefer that candidates are comfortable with aspects from both data science and data engineering. Additionally, if a company has defined these two roles separately, it can be possible to switch from one role to the other. 
+
+If you have ever thought about transitioning from software engineering to being a data engineer working on the frontiers of big data, please apply for our next session of the program! 

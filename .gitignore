@@ -1,0 +1,5 @@
+/.idea
+/test/actual_example_output
+/test/*.pyc
+*.pyc
+/test/actual_multiple_output
