@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # load dependencies
-apt-get install python-numpy
+# apt-get install python-numpy
 
 # set permissions
 chmod a+x ./src/WordCount.py
